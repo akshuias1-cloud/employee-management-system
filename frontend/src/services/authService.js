@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-"http://localhost:5000/api/auth";
+"https://ems-backend-jt2j.onrender.com/api/auth";
 
 export const registerUser =
 (data) =>
