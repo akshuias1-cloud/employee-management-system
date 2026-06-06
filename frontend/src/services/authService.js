@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-"https://ems-backend-jt2j.onrender.com/api/auth";
+import.meta.env.VITE_API_URL;
 
 export const registerUser =
 (data) =>
