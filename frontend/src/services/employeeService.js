@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "http://localhost:5000/api/employees";
+  "https://ems-backend-jt2j.onrender.com/api/employees";
 
 export const getEmployees = () =>
   axios.get(API_URL);
